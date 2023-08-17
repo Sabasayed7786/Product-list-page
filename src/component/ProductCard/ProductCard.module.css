@@ -1,0 +1,20 @@
+/* ProductCard.module.css */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .cardMedia {
+    height: 250px; /* Adjust card media height */
+    width: 400px;
+    position: relative;
+  }
+  
+  .cardImage {
+    width: 50%;
+    height: 100%; /* Adjust image height */
+    object-fit: cover;
+  }
+  
